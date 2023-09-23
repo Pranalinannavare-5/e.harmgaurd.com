@@ -1,0 +1,71 @@
+body
+	 {
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: right;
+		justify-content: left;
+		position: sticky;
+		top: 0;
+        height: 15px;
+		cursor: pointer;
+	}
+
+	.background {
+		background:whitesmoke;
+		background-blend-mode: darken;
+		background-size: cover;
+	}
+
+	.nav-list {
+		width: 70%;
+		display: flex;
+		/* align-items: center; */
+        justify-content: left;
+        font-size: 25px;
+	}
+    
+        
+    
+	.nav-list li {
+        list-style: none;
+		padding: 26px 30px;
+        gap: 15px;
+	}
+
+	.nav-list li a {
+		text-decoration: none;
+		color:black;
+        
+	}
+
+	.nav-list li a:hover {
+		color:white;
+	}
+
+	.rightnav {
+		
+		text-align: right;
+	}
+
+	
+    img{
+        width: 100%;
+    }
+#mem{
+text-align: center;
+}
+#para{
+    justify-content: center;
+    text-align: center;
+}
+
+
+	
+
+	
+	
+
